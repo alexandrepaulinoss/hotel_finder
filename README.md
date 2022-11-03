@@ -6,19 +6,19 @@ Find the cheapest tax for a hotel (given a hotel and taxes list).
 
 Javascript
 
-## install the required modules:
+## Install the required modules
 
 ```
 $ yarn install
 ```
 
-## run the tests:
+## Run the tests
 
 ```
 $ yarn test
 ```
 
-## Run
+## Run the app
 
 ```
 $ node app.js
