@@ -2,11 +2,23 @@
   "name": "js-test-project",
   "version": "1.0.0",
   "description": "A simple project with a single failing test",
+  "type": "module",
+  "main": "app.js",
   "scripts": {
-    "test": "mocha test/**/*spec.js"
+    "test": "jest"
   },
   "dependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.4",
+    "@types/jest": "^27.4.0",
+    "jest": "^29.2.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
   }
 }
